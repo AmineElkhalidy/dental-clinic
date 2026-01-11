@@ -1,35 +1,119 @@
 import { buttonVariants } from "@/components/common/button";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
+import { Calendar, Sparkles, Shield, Heart } from "lucide-react";
 
 export default function Hero() {
   return (
     <div
-      className="relative bg-no-repeat bg-cover bg-right bg-fixed bg-hero"
+      className="relative bg-no-repeat bg-cover bg-center bg-fixed"
       style={{
         backgroundImage:
-          "linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0)), url('/images/hero.jpg')",
+          "linear-gradient(to right, rgba(97, 83, 204, 0.95), rgba(97, 83, 204, 0.85), rgba(48, 41, 47, 0.7)), url('/images/hero.jpg')",
       }}
     >
-      <section className=" min-h-[80vh]  md:grid md:grid-cols-[3fr_2fr] md:gap-16 container max-w-screen-lg px-4 flex flex-col justify-center">
-        <div className="my-auto flex flex-col justify-center items-start">
-          <h2 className="my-4 text-white pt-12 font-semibold text-5xl md:text-6xl">
-            Because Your
-            <br /> Smile Is Precious
-          </h2>
-          <p className="my-8 text-white max-w-[45ch]">
-            We provide the best dental care services to you and your family. We
-            have the best doctors and staff to help you with your dental
-            problems.
-          </p>
-          <Link
-            href="/new-appointment"
-            className={buttonVariants({
-              variant: "default",
-            })}
+      <section className="min-h-[90vh] container max-w-screen-xl px-4 flex flex-col justify-center relative overflow-hidden">
+        <div className="my-auto flex flex-col justify-center items-start max-w-4xl py-20 md:py-32">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="flex items-center gap-2 mb-6"
           >
-            Make Appointment
-          </Link>
+            <Sparkles className="w-5 h-5 text-white/90" />
+            <span className="text-white/90 text-sm font-medium uppercase tracking-wider">
+              Excellence in Dental Care
+            </span>
+          </motion.div>
+
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="my-4 text-white font-bold text-5xl md:text-7xl lg:text-8xl leading-tight"
+          >
+            Your Perfect Smile
+            <br />
+            <span className="text-primary-light bg-white/10 px-4 py-2 rounded-lg inline-block mt-2">
+              Starts Here
+            </span>
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="my-8 text-white/95 text-lg md:text-xl max-w-[55ch] leading-relaxed"
+          >
+            Experience world-class dental care in a warm, welcoming environment. 
+            Our expert team combines advanced technology with compassionate care 
+            to give you the healthy, beautiful smile you deserve.
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="flex flex-col sm:flex-row gap-4 mt-8"
+          >
+            <Link
+              href="/new-appointment"
+              className={buttonVariants({
+                variant: "default",
+                size: "lg",
+                className: "text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all",
+              })}
+            >
+              <Calendar className="mr-2 w-5 h-5" />
+              Book Your Appointment
+            </Link>
+            <Link
+              href="/about"
+              className={buttonVariants({
+                variant: "white",
+                size: "lg",
+                className: "text-lg px-8 py-6",
+              })}
+            >
+              Learn More About Us
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-white/20 w-full"
+          >
+            <div className="flex items-center gap-3">
+              <div className="bg-white/10 p-3 rounded-lg">
+                <Heart className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <div className="text-white font-bold text-2xl">15+</div>
+                <div className="text-white/80 text-sm">Years Experience</div>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="bg-white/10 p-3 rounded-lg">
+                <Shield className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <div className="text-white font-bold text-2xl">10K+</div>
+                <div className="text-white/80 text-sm">Happy Patients</div>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="bg-white/10 p-3 rounded-lg">
+                <Sparkles className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <div className="text-white font-bold text-2xl">100%</div>
+                <div className="text-white/80 text-sm">Satisfaction</div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
     </div>
