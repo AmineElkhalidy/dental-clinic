@@ -2,7 +2,7 @@
 
 ## Description🌟
 
-Welcome to our Dental Clinic an Online Appointment Booking System project! This system enables customers to conveniently make appointments online and check available time slots. It is built using Next.js 14, React 18, Tailwind CSS, Framer Motion, GraphQL, Node.js, Express, React Query, TanStack Tables, and JWT authentication.
+Dental is a modern web application that enables patients to book appointments online and check real-time availability. Built with Next.js 16 and React 19, it uses Tailwind CSS and Framer Motion for UI, a Node.js and Express backend with GraphQL, React Query, TanStack Table, and JWT-based authentication. Optimized for performance and scalability.
 
 ## Links
 
