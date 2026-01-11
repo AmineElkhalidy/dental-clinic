@@ -10,27 +10,27 @@ import { buttonVariants } from "@/components/common/button";
 const services = [
   {
     icon: Service1Icon,
-    title: "Comprehensive Dental Exams",
-    description: "Thorough examinations using the latest technology to detect issues early and maintain optimal oral health.",
-    features: ["Digital X-rays", "Oral cancer screening", "Gum health assessment"],
+    title: "Complete Dental Examinations",
+    description: "Advanced diagnostic evaluations utilizing cutting-edge imaging technology to catch problems before they become serious, ensuring your oral health stays at its peak.",
+    features: ["3D Digital imaging", "Early disease detection", "Comprehensive oral assessment"],
   },
   {
     icon: Service2Icon,
-    title: "Preventive Care & Cleanings",
-    description: "Professional cleanings and preventive treatments to keep your teeth and gums healthy for years to come.",
-    features: ["Deep cleaning", "Fluoride treatment", "Sealants"],
+    title: "Premium Preventive Care",
+    description: "Expert cleanings and protective treatments that shield your smile from future problems, keeping your teeth and gums healthy and strong for a lifetime.",
+    features: ["Deep professional cleanings", "Advanced fluoride therapy", "Protective dental sealants"],
   },
   {
     icon: Service3Icon,
-    title: "Cosmetic Dentistry",
-    description: "Transform your smile with our advanced cosmetic procedures designed to boost your confidence.",
-    features: ["Teeth whitening", "Veneers", "Smile makeovers"],
+    title: "Smile Transformation",
+    description: "Revolutionary cosmetic procedures that completely redesign your smile, boosting your self-confidence and leaving you beaming from ear to ear.",
+    features: ["Professional whitening", "Porcelain veneers", "Complete smile redesign"],
   },
   {
     icon: Service4Icon,
-    title: "Advanced Treatments",
-    description: "Comprehensive solutions for complex dental issues, from root canals to dental implants and more.",
-    features: ["Root canals", "Crowns & bridges", "Dental implants"],
+    title: "Advanced Restorative Solutions",
+    description: "State-of-the-art treatments for even the most complex dental challenges, restoring both function and aesthetics with precision and care.",
+    features: ["Root canal therapy", "Crowns & bridges", "Dental implant restoration"],
   },
 ];
 
@@ -46,16 +46,17 @@ export const Services = () => {
           className="text-center mb-16"
         >
           <div className="inline-block px-4 py-2 bg-primary/20 text-primary rounded-full text-sm font-medium mb-6">
-            Our Services
+            What We Offer
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Comprehensive Dental Care
+            Complete Dental Solutions
             <br />
-            <span className="text-primary-light">For Every Need</span>
+            <span className="text-primary-light">Under One Roof</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            From routine check-ups to complex procedures, we offer a full range of 
-            dental services to keep your smile healthy and beautiful at every stage of life.
+            Experience the full spectrum of advanced dental care—from preventive maintenance to 
+            transformative cosmetic procedures. We&apos;ve got everything you need to achieve and 
+            maintain your perfect smile.
           </p>
         </motion.div>
 
@@ -111,7 +112,7 @@ export const Services = () => {
               className: "text-lg px-8 py-6 bg-white text-secondary hover:bg-gray-100",
             })}
           >
-            Explore All Services
+            View Complete Service List
           </Link>
         </motion.div>
       </div>

@@ -37,27 +37,28 @@ function Footer() {
             <Inbox className="text-primary size-6 md:size-8 shrink-0" />
             <div>
               <p className="font-medium text-sm md:text-lg text-white">
-                email@contact.com
+                hello@brightsmile.dental
               </p>
               <p className="font-medium text-sm md:text-lg text-white">
-                email2@contact.com
+                appointments@brightsmile.dental
               </p>
             </div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <MapPinned className="text-primary size-6 md:size-8 shrink-0" />
             <p className="font-medium text-sm md:text-lg text-white max-w-[30ch]">
-              866 Balistreri Light Suite 937, Helgatown 93810-6364
+              1234 Bright Smile Boulevard, Suite 200, Wellness District, NY
+              10001
             </p>
           </div>
           <div className="flex items-center gap-4">
             <Phone className="text-primary size-6 md:size-8 shrink-0" />
             <div>
               <p className="font-medium text-sm md:text-lg text-white">
-                +1 234 567 890
+                +1 (555) 321-7890
               </p>
               <p className="font-medium text-sm md:text-lg text-white">
-                +1 234 567 890
+                Emergency: +1 (555) 321-7891
               </p>
             </div>
           </div>
@@ -113,20 +114,6 @@ function Footer() {
             </Link>
           </li>
         </ul>
-
-        <div className="text-center md:text-left md:flex md:justify-between md:items-center mt-16">
-          <p className="text-gray-400 text-sm md:text-base text-center mx-auto mb-4 md:mb-0">
-            &copy; Copyright {new Date().getFullYear()} - All rights reserved -
-            Created By{" "}
-            <Link
-              target="_blank"
-              href="https://samoudianas.dev"
-              className="text-primary underline"
-            >
-              Anas Samoudi
-            </Link>
-          </p>
-        </div>
       </div>
     </div>
   );

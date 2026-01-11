@@ -18,7 +18,7 @@ export const About = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src="/images/about.jpg"
-              alt="Dr. John Doe - Expert Dentist"
+              alt="Bright Smile Dental Team - Expert Dentists"
               className="w-full h-full object-cover object-center"
               width={600}
               height={700}
@@ -26,10 +26,10 @@ export const About = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 via-transparent to-transparent"></div>
           </div>
           <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-xl shadow-xl hidden md:block">
-            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3">
               <Award className="w-8 h-8" />
               <div>
-                <div className="text-2xl font-bold">15+</div>
+                <div className="text-2xl font-bold">20+</div>
                 <div className="text-sm text-white/90">Years Experience</div>
               </div>
             </div>
@@ -44,30 +44,31 @@ export const About = () => {
           className="my-auto"
         >
           <div className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
-            Meet Our Team
+            About Bright Smile Dental
           </div>
           
           <h2 className="text-secondary font-bold text-4xl md:text-5xl mb-4 leading-tight">
-            Welcome to The Dental
+            Where Exceptional Care
             <br />
             <span className="text-primary">
-              Where Your Smile Matters Most
+              Meets Extraordinary Results
             </span>
           </h2>
           
           <div className="w-20 h-1.5 bg-primary mb-8 rounded-full"></div>
           
           <p className="mb-6 text-gray-700 text-lg leading-relaxed">
-            At The Dental, we believe that a healthy smile is the foundation of confidence and well-being. 
-            For over 15 years, our dedicated team has been transforming lives, one smile at a time.
+            At Bright Smile Dental, we don&apos;t just treat teeth—we transform lives. 
+            With over two decades of combined expertise, our passionate team of dental professionals 
+            has helped thousands of patients rediscover their confidence through beautiful, healthy smiles.
           </p>
           
           <p className="mb-8 text-gray-600 leading-relaxed">
-            Our state-of-the-art facility combines cutting-edge technology with a warm, 
-            compassionate approach to dental care. We understand that visiting the dentist 
-            can be daunting, which is why we&apos;ve created an environment where you&apos;ll 
-            feel relaxed, heard, and cared for. From routine cleanings to complex cosmetic 
-            procedures, we&apos;re here to help you achieve the smile you&apos;ve always dreamed of.
+            Our modern, welcoming clinic features the latest dental technology in a calming, 
+            stress-free environment. We know that dental visits can cause anxiety, which is why 
+            every detail—from our soothing ambiance to our gentle techniques—is designed with your 
+            comfort in mind. Whether you need preventive care, cosmetic enhancement, or restorative 
+            treatment, we&apos;re committed to delivering results that exceed your expectations.
           </p>
 
           <div className="grid grid-cols-2 gap-6 mb-8">
@@ -76,8 +77,8 @@ export const About = () => {
                 <Users className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <div className="font-bold text-secondary text-lg">Expert Team</div>
-                <div className="text-gray-600 text-sm">Licensed professionals</div>
+                <div className="font-bold text-secondary text-lg">Expert Professionals</div>
+                <div className="text-gray-600 text-sm">Board-certified specialists</div>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -85,8 +86,8 @@ export const About = () => {
                 <Clock className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <div className="font-bold text-secondary text-lg">Flexible Hours</div>
-                <div className="text-gray-600 text-sm">Convenient scheduling</div>
+                <div className="font-bold text-secondary text-lg">Extended Hours</div>
+                <div className="text-gray-600 text-sm">Fit your busy schedule</div>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -94,8 +95,8 @@ export const About = () => {
                 <HeartIcon className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <div className="font-bold text-secondary text-lg">Personalized Care</div>
-                <div className="text-gray-600 text-sm">Tailored treatments</div>
+                <div className="font-bold text-secondary text-lg">Customized Plans</div>
+                <div className="text-gray-600 text-sm">Designed for you</div>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -103,8 +104,8 @@ export const About = () => {
                 <Award className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <div className="font-bold text-secondary text-lg">Top Quality</div>
-                <div className="text-gray-600 text-sm">Premium materials</div>
+                <div className="font-bold text-secondary text-lg">Premium Standards</div>
+                <div className="text-gray-600 text-sm">Highest quality materials</div>
               </div>
             </div>
           </div>
@@ -117,7 +118,7 @@ export const About = () => {
               className: "text-lg px-8 py-6",
             })}
           >
-            Learn More About Us
+            Our Full Story
           </Link>
         </motion.div>
       </div>

@@ -7,10 +7,10 @@ function ContactPage() {
   return (
     <BasicLayout>
       <Head>
-        <title>Contact Us | The Dental</title>
+        <title>Contact Us | Bright Smile Dental</title>
         <meta
           name="description"
-          content="Contact us for any queries or to book an appointment. We are here to help you."
+          content="Get in touch with Bright Smile Dental today. Schedule your consultation, ask questions, or learn more about our comprehensive dental services. We're here to help you achieve your perfect smile."
         />
       </Head>
       <main>

@@ -10,10 +10,10 @@ const About = () => {
   return (
     <BasicLayout isTransparentBg>
       <Head>
-        <title>About | The Dental</title>
+        <title>About Us | Bright Smile Dental</title>
         <meta
           name="description"
-          content="Dentist is a dental clinic that offers a wide range of services. We are located in the heart of the city and have been serving the community for over 20 years."
+          content="Learn about Bright Smile Dental—where exceptional dental care meets extraordinary results. Two decades of transforming smiles with cutting-edge technology and compassionate expertise."
         />
       </Head>
       <div
@@ -26,42 +26,43 @@ const About = () => {
       >
         <div className=" container max-w-screen-lg ">
           <h2 className="font-bold text-center text-3xl md:text-5xl text-white px-4">
-            About
+            About Bright Smile Dental
           </h2>{" "}
-          <p className="max-w-[80ch] mx-auto text-center text-white pt-4 px-12 italic">
-            We provide the best dental care services to you and your family. We
-            have the best doctors and staff to help you with your dental
-            problems
+          <p className="max-w-[80ch] mx-auto text-center text-white pt-4 px-12 italic text-lg">
+            Transforming lives through exceptional dental care. For over two decades, 
+            we&apos;ve been committed to helping families achieve healthier, more confident smiles 
+            with personalized attention and world-class expertise.
           </p>
         </div>
       </div>
       <div className="py-12 px-4 md:grid md:grid-cols-[3fr_2fr] md:gap-32 container max-w-screen-lg items-start">
         <div className="my-auto">
           <h1 className="pb-4 text-4xl md:text-5xl font-bold text-secondary">
-            Hello again!
+            Welcome to Our Practice
           </h1>
           <div className="w-12 h-1 bg-primary mb-8"></div>
-          <p className="text-gray-700">
-            I&apos;m{" "}
-            <span className="underline font-medium text-primary">John Doe</span>
-            , a dentist with over 20 years of experience in the field. I have
-            been helping people with their dental problems for a long time now.
+          <p className="text-gray-700 text-lg leading-relaxed">
+            At <span className="underline font-medium text-primary">Bright Smile Dental</span>, 
+            we&apos;re more than just a dental clinic—we&apos;re your partners in achieving optimal oral health 
+            and a stunning smile that reflects your confidence.
             <br />
             <br />
-            I have a team of professionals who are always ready to help you with
-            your dental problems.
+            Our team of highly skilled, board-certified dental professionals brings together decades 
+            of collective experience. Each member of our staff shares a passion for excellence and 
+            a commitment to staying at the forefront of dental innovation.
             <br />
             <br />
-            We provide the best dental care services to you and your family. We
-            have the best doctors and staff to help you with your dental
-            problems.
+            We believe that every patient deserves personalized, compassionate care tailored to their 
+            unique needs. From the moment you walk through our doors, you&apos;ll experience the 
+            difference that genuine attention to detail makes. Your comfort, your health, and your 
+            satisfaction are our top priorities.
           </p>
         </div>
         <div className="relative w-full mt-8 md:mt-0">
           <div className="object-cover w-full h-full rounded-xl shadow-xl overflow-hidden my-auto">
             <Image
               src="/images/Dentist.jpg"
-              alt="Dentist"
+              alt="Bright Smile Dental Team"
               className="w-full"
               width={1000}
               height={1000}
@@ -76,7 +77,7 @@ const About = () => {
               <Service1Icon className="fill-primary w-16 h-16 overflow-visible" />
             </div>
             <h4 className="text-white text-center font-semibold mt-8">
-              Dental Checking
+              Complete Examinations
             </h4>
           </div>
           <div className="w-1/4">
@@ -84,7 +85,7 @@ const About = () => {
               <Service2Icon className="fill-primary w-16 h-16 overflow-visible" />
             </div>
             <h4 className="text-white text-center font-semibold mt-8">
-              Dental Care
+              Preventive Care
             </h4>
           </div>
           <div className="w-1/4">
@@ -92,7 +93,7 @@ const About = () => {
               <Service3Icon className="fill-primary w-16 h-16 overflow-visible" />
             </div>
             <h4 className="text-white text-center font-semibold mt-8">
-              Tooth Setting
+              Smile Design
             </h4>
           </div>
           <div className="w-1/4">
@@ -100,7 +101,7 @@ const About = () => {
               <Service4Icon className="fill-primary w-16 h-16 overflow-visible" />
             </div>
             <h4 className="text-white text-center font-semibold mt-8">
-              Dental Treatment
+              Advanced Treatments
             </h4>
           </div>
         </div>

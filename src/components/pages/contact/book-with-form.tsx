@@ -55,10 +55,11 @@ export const BookWithForm = () => {
         }}
         className="py-32 bg-no-repeat px-4 text-center text-white relative z-10 bg-primary"
       >
-        <h2 className="text-3xl font-semibold md:text-5xl">Contact Us</h2>
-        <p className="mt-4 mb-8 mx-auto max-w-[70ch]">
-          We provide the best dental care services to you and your family. We
-          have the best doctors and staff to help you with your dental problems
+        <h2 className="text-3xl font-semibold md:text-5xl">Get In Touch</h2>
+        <p className="mt-4 mb-8 mx-auto max-w-[70ch] text-lg">
+          Have a question? Want to discuss your treatment options? Fill out the form below 
+          and our team will get back to you promptly. We&apos;re here to help you on your 
+          journey to a perfect smile.
         </p>
         <section className=" bg-white w-full md:w-fit mx-auto p-4 md:p-8 rounded-xl shadow-xl">
           <form

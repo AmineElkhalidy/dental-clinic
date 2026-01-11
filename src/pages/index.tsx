@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <BasicLayout isTransparentBg>
       <Head>
-        <title>Home | The Dental</title>
+        <title>Home | Bright Smile Dental - Transform Your Smile</title>
         <meta
           name="description"
-          content="Dentist is a dental clinic that offers a wide range of services. We are located in the heart of the city and have been serving the community for over 20 years."
+          content="Bright Smile Dental offers exceptional dental care with cutting-edge technology and compassionate expertise. Transform your smile and boost your confidence with our comprehensive dental services."
         />
       </Head>
       <main>

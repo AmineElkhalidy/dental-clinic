@@ -11,33 +11,33 @@ interface ContactProps {
 const contactInfo = [
   {
     icon: MapPin,
-    title: "Visit Us",
-    content: "866 Balistreri Light Suite 937",
-    subContent: "Helgatown 93810-6364",
+    title: "Visit Our Clinic",
+    content: "1234 Bright Smile Boulevard",
+    subContent: "Suite 200, Wellness District, NY 10001",
     color: "text-blue-600",
     bgColor: "bg-blue-100",
   },
   {
     icon: Phone,
-    title: "Call Us",
-    content: "+1 (504) 558-3645",
-    subContent: "+1 (234) 567-890",
+    title: "Call Us Today",
+    content: "+1 (555) 321-7890",
+    subContent: "Emergency: +1 (555) 321-7891",
     color: "text-green-600",
     bgColor: "bg-green-100",
   },
   {
     icon: Mail,
-    title: "Email Us",
-    content: "contact@thedental.com",
-    subContent: "info@thedental.com",
+    title: "Email Us Anytime",
+    content: "hello@brightsmile.dental",
+    subContent: "appointments@brightsmile.dental",
     color: "text-purple-600",
     bgColor: "bg-purple-100",
   },
   {
     icon: Clock,
-    title: "Opening Hours",
-    content: "Monday - Friday: 8:00 AM - 4:00 PM",
-    subContent: "Saturday: 8:00 AM - 12:00 PM",
+    title: "Office Hours",
+    content: "Monday - Friday: 7:00 AM - 6:00 PM",
+    subContent: "Saturday: 8:00 AM - 2:00 PM",
     color: "text-orange-600",
     bgColor: "bg-orange-100",
   },
@@ -59,13 +59,14 @@ export const Contact = ({ showBook = true }: ContactProps) => {
             Get In Touch
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary mb-6">
-            We&apos;re Here to Help
+            Connect With Us Today
             <br />
-            <span className="text-primary">Your Smile Matters</span>
+            <span className="text-primary">Your Journey Starts Here</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Have questions? Want to schedule a consultation? Our friendly team 
-            is ready to assist you. Reach out to us through any of the channels below.
+            Ready to transform your smile? Our dedicated team is standing by to answer your questions, 
+            schedule your consultation, or help you take the first step toward your perfect smile. 
+            We&apos;re here for you every step of the way.
           </p>
         </motion.div>
 
@@ -109,11 +110,11 @@ export const Contact = ({ showBook = true }: ContactProps) => {
         >
           <Calendar className="w-12 h-12 mx-auto mb-6 text-white/90" />
           <h3 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to Transform Your Smile?
+            Your Perfect Smile Awaits
           </h3>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Schedule your appointment today and take the first step towards 
-            a healthier, more confident smile.
+            Don&apos;t wait another day to achieve the smile you&apos;ve always dreamed of. 
+            Book your consultation now and discover how we can help you shine with confidence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

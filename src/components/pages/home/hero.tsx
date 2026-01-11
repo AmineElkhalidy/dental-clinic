@@ -23,7 +23,7 @@ export default function Hero() {
           >
             <Sparkles className="w-5 h-5 text-white/90" />
             <span className="text-white/90 text-sm font-medium uppercase tracking-wider">
-              Excellence in Dental Care
+              Award-Winning Dental Excellence
             </span>
           </motion.div>
 
@@ -33,10 +33,10 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="my-4 text-white font-bold text-5xl md:text-7xl lg:text-8xl leading-tight"
           >
-            Your Perfect Smile
+            Transform Your Smile,
             <br />
             <span className="text-primary-light bg-white/10 px-4 py-2 rounded-lg inline-block mt-2">
-              Starts Here
+              Transform Your Life
             </span>
           </motion.h1>
 
@@ -46,9 +46,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="my-8 text-white/95 text-lg md:text-xl max-w-[55ch] leading-relaxed"
           >
-            Experience world-class dental care in a warm, welcoming environment. 
-            Our expert team combines advanced technology with compassionate care 
-            to give you the healthy, beautiful smile you deserve.
+            Discover the difference that premium dental care makes. Our state-of-the-art clinic 
+            delivers personalized treatments using cutting-edge technology, ensuring your comfort 
+            and confidence every step of the way.
           </motion.p>
 
           <motion.div
@@ -76,7 +76,7 @@ export default function Hero() {
                 className: "text-lg px-8 py-6",
               })}
             >
-              Learn More About Us
+              Discover Our Story
             </Link>
           </motion.div>
 
@@ -91,8 +91,8 @@ export default function Hero() {
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <div>
-                <div className="text-white font-bold text-2xl">15+</div>
-                <div className="text-white/80 text-sm">Years Experience</div>
+                <div className="text-white font-bold text-2xl">20+</div>
+                <div className="text-white/80 text-sm">Years of Excellence</div>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -100,8 +100,8 @@ export default function Hero() {
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <div>
-                <div className="text-white font-bold text-2xl">10K+</div>
-                <div className="text-white/80 text-sm">Happy Patients</div>
+                <div className="text-white font-bold text-2xl">25K+</div>
+                <div className="text-white/80 text-sm">Smiles Transformed</div>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -109,8 +109,8 @@ export default function Hero() {
                 <Sparkles className="w-6 h-6 text-white" />
               </div>
               <div>
-                <div className="text-white font-bold text-2xl">100%</div>
-                <div className="text-white/80 text-sm">Satisfaction</div>
+                <div className="text-white font-bold text-2xl">98%</div>
+                <div className="text-white/80 text-sm">Success Rate</div>
               </div>
             </div>
           </motion.div>
